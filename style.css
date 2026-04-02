@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f8d9f8;
+    text-align: center;
+}
+
+input, button {
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    cursor: pointer;
+    background: #ff7bd5;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #ff4bc2;
+}
+
+#botaoRecarregar {
+    margin-top: 15px;
+}
